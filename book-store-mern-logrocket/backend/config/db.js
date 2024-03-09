@@ -1,5 +1,7 @@
+import { mongoDBURL } from "./config";
+
 const mongoose = require("mongoose");
-const db = "mongodb+srv://yeasinhossain:QPcBX4qhyu1OhUbg@cluster0.hzhcq74.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const db = mongoDBURL;
 
 mongoose.set("strictQuery", true, "useNewUrlParser", true);
 

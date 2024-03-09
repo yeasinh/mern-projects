@@ -1,3 +1,5 @@
+import { PORT } from './config/config';
+
 const express = require('express');
 const connectDB = require('./config/db');
 const routes = require("./routes/api/books");
@@ -22,7 +24,7 @@ app.get('/', (req, res) => {
     res.send('Hello world!');
 });
 
-const port = 8082;
+const port = PORT;
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);

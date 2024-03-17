@@ -10,10 +10,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
 // Components imports
-import CreateBook from "./components/CreateBook";
-import ShowBookList from "./components/ShowBookList";
-import ShowBookDetails from "./components/ShowBookDetails";
-import UpdateBookInfo from "./components/UpdateBookInfo";
+import CreateBook from "./components/CreateBook.jsx";
+import ShowBookList from "./components/ShowBookList.jsx";
+import ShowBookDetails from "./components/ShowBookDetails.jsx";
+import UpdateBookInfo from "./components/UpdateBookInfo.jsx";
 
 // Routes
 const router = createBrowserRouter([

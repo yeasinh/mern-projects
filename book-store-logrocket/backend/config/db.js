@@ -1,9 +1,9 @@
-import { mongoDBURL } from "./config";
-
 const mongoose = require("mongoose");
-const db = mongoDBURL;
+const { mongoDBURL } = require('./config');
 
 mongoose.set("strictQuery", true, "useNewUrlParser", true);
+
+const db = mongoDBURL;
 
 const connectDB = async () => {
   try {

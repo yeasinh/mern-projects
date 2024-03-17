@@ -1,4 +1,4 @@
-import { PORT } from './config/config';
+const { PORT } = require('./config/config');
 
 const express = require('express');
 const connectDB = require('./config/db');
